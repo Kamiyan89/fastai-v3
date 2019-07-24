@@ -9,7 +9,7 @@ from starlette.middleware.cors import CORSMiddleware
 from starlette.responses import HTMLResponse, JSONResponse
 from starlette.staticfiles import StaticFiles
 
-export_file_url = 'https://www.dropbox.com/s/owewd0nvlpn6lcg/eyes-50-09.pkl?dl=1'
+export_file_url = 'https://www.dropbox.com/s/o5qcw1s2bcs1g3r/export.pkl?dl=1'
 export_file_name = 'eyes-50-09.pkl'
 
 classes = ['center', 'down', 'downleft', 'downright', 'left', 'right', 'up', 'upleft', 'upright']
